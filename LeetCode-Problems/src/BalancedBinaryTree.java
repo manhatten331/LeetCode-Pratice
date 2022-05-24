@@ -91,24 +91,24 @@ public class BalancedBinaryTree {
 
 }
 // Constructors are methods with no return type that have the same name as the class that contains them
-class TreeNode {
-    int val; //fields
-    TreeNode left; //fields
-    TreeNode right; //fields
-    TreeNode() {}
-    TreeNode(int val) { this.val = val; }
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-
-    @Override
-    public String toString() {
-        return "TreeNode{" +
-                "val=" + val +
-                ", left=" + left +
-                ", right=" + right +
-                '}';
-    }
-}
+//class TreeNode {
+//    int val; //fields
+//    TreeNode left; //fields
+//    TreeNode right; //fields
+//    TreeNode() {}
+//    TreeNode(int val) { this.val = val; }
+//    TreeNode(int val, TreeNode left, TreeNode right) {
+//        this.val = val;
+//        this.left = left;
+//        this.right = right;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "TreeNode{" +
+//                "val=" + val +
+//                ", left=" + left +
+//                ", right=" + right +
+//                '}';
+//    }
+//}
